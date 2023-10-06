@@ -8,3 +8,6 @@ git commit -m '提交信息'
 vim 文件名
 i 进入编辑模式
 esc 冒号wq保存退出
+
+git restore file撤销本地修改
+gir checkout -- file
