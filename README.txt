@@ -14,3 +14,5 @@ git checkout -- file
 
 git restore --stage file 取消暂存 (将已add状态撤销)
 git restore file
+
+git reset head^ 回退版本
