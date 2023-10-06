@@ -10,4 +10,7 @@ i 进入编辑模式
 esc 冒号wq保存退出
 
 git restore file撤销本地修改
-gir checkout -- file
+git checkout -- file
+
+git restore --stage file 取消暂存 (将已add状态撤销)
+git restore file
