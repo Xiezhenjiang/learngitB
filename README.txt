@@ -16,3 +16,5 @@ git restore --stage file 取消暂存 (将已add状态撤销)
 git restore file
 
 git reset head^ 回退版本
+
+git revert head 撤销提交保存提交记录
